@@ -1,0 +1,45 @@
+/* - - - - - - - - - - - - - - - - - - - - -
+
+ Title : Custom Wufoo Css
+ Author :  Asa Shatkim
+ URL : http://
+
+ Last Updated : Jan 2010
+
+- - - - - - - - - - - - - - - - - - - - - */
+
+
+/* - - - Default - - - */
+
+/* Logo */
+h1 a {display:none; min-height:0; height:0;}
+
+/* Backgrounds */
+body{background-image:none; font-family:"Helvetica Neue", Arial, Helvetica, sans-serif;font-size:75%;}
+h1{background-image:none;background-color:#669900; font-family:"Helvetica Neue", Arial, Helvetica, sans-serif;}
+#container{background:#000;}
+.wufoo input.text, .wufoo textarea.textarea{background:#FFFFFF repeat-x top}
+.wufoo .focused{background:#009baa}
+.wufoo .instruct{background-color:#F5F5F5}
+
+/* Borders */
+#container{border:0;}
+.wufoo .info{border:0;}
+.wufoo .section{border-top:1px solid #fff}
+.wufoo .instruct{border:1px solid #fff}
+
+/* Typography */
+.wufoo .info h2{padding:20px 8px 20px 13px;background-color:#009baa;	border-bottom:solid 3px #fff;	color:#fff;	text-transform: uppercase;	font-weight: bold;	text-align:left; font-size:1.5em;line-height:1;margin-bottom:1em;  font-family:"Helvetica Neue", Arial, Helvetica, sans-serif;}
+.wufoo .info div{font-size:95%;font-family:inherit;color:#fff; padding: 0 10px;}
+.wufoo .info div a{color: #009baa;}
+.wufoo .section h3{font-size:110%;font-family:inherit;background:#FFFFFF;color:#000000}
+.wufoo .section div{font-size:85%;font-family:inherit;color:#fff}
+.wufoo label.desc{font-size:95%;font-family:inherit;color:#fff;}
+.wufoo li div, .wufoo li div label, .wufoo li span label{font-family:inherit;color:#fff}
+.wufoo input.text, .wufoo textarea.textarea, .wufoo select.select, .wufoo label.choice{font-size:100%;font-family:inherit;color:#333333}
+.wufoo label.choice{color:#fff}
+.wufoo .instruct{font-size:80%;font-family:inherit;color:#fff
+}
+
+/* Drop Shadows */
+#top, #bottom{visibility:visible}
